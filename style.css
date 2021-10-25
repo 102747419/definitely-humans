@@ -1,0 +1,204 @@
+/* global */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+    background: #e7e1da;
+    cursor: url(cursor/AcornCursor.png), auto;
+    cursor: pointer url(), auto;
+}
+
+::-webkit-scrollbar {
+    width: 0.75em;
+    background: #d5a286;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b593e;
+    border-radius: 1.25em;;
+}
+
+
+
+/* header */
+header {
+    background-image: url(background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
+.logosection {
+    padding-top: 1vh;
+    position: relative;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.75em;
+}
+
+.logo img {
+    padding-top: 0.125em;
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.videosection {
+    padding-top: 0.5vh;
+    position: relative;
+    padding-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introvideo {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #e7e1da;
+    border-radius: 0.5em;
+    width: 50%;
+}
+
+.synopsissection{
+    position: relative;
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2em solid #e7e1da;
+    border-radius: 0.75em;
+}
+
+.synopsis{
+    text-align: center;
+    background: #e7e1da;
+    position: static;
+    display: flex;
+    width: 100%;
+}
+
+.synopsis p{
+    font-size: 1.125em;
+    font-weight: 600;
+    color: #372318;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttoncenter {
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+header .button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    background-color: #8b593e;
+    color: #e7e1da;
+    border-radius: 0.75em;
+    text-decoration: none;
+    font-size: 2.75vh;
+    line-height: 2em;
+    padding: 0.6em;
+    white-space: nowrap;
+}
+
+.button p {
+    font-size: auto;
+    width: auto;
+}
+
+a:hover, a:focus {
+    cursor: url(cursor/SquirrelballCursor.png), auto;
+}
+
+
+
+/* footer */
+.footerinfo {
+    padding: 1rem;
+    display: flex;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    background-color: #e7e1da;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerinfo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footerinfo li{
+    float: left;
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #372318;
+}
+
+footer p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.footerinfo p {
+    font-size: 1.25em;
+    color: #372318;
+}
+
+.socials{
+    display: flex;
+    padding-top: 3em;
+    background-color: #e7e1da;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.socials li {
+    float: left;
+}
+
+.socials li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 3em;
+    color: #603d2a;
+}
+
